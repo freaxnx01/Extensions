@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <AssemblyName>freaxnx01.Extensions</AssemblyName>
+        <RootNamespace>freaxnx01.Extensions</RootNamespace>
+        <TargetFrameworks>net5.0;netstandard2.0</TargetFrameworks>
+        <LangVersion>9</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="HtmlAgilityPack" Version="1.11.33" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="System.ServiceModel.Syndication" Version="6.0.0-preview.3.21201.4" />
+      <PackageReference Include="System.Text.Json" Version="6.0.0-preview.3.21201.4" />
+    </ItemGroup>
+
+</Project>
