@@ -5,6 +5,9 @@
         <RootNamespace>freaxnx01.Extensions</RootNamespace>
         <TargetFrameworks>net5.0;netstandard2.0</TargetFrameworks>
         <LangVersion>9</LangVersion>
+        <PackageVersion>0.0.9</PackageVersion>
+        <Authors>freaxnx01</Authors>
+        <AssemblyVersion>0.0.9</AssemblyVersion>
     </PropertyGroup>
 
     <ItemGroup>
