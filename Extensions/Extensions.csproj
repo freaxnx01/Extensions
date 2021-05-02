@@ -8,6 +8,7 @@
         <PackageVersion>0.0.9</PackageVersion>
         <Authors>freaxnx01</Authors>
         <AssemblyVersion>0.0.9</AssemblyVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
