@@ -9,7 +9,6 @@ namespace freaxnx01.Extensions
         public static string AssemblyDirectory(this Assembly assembly)
         {
             var uri = new UriBuilder(assembly.CodeBase ?? string.Empty);
-            // what?
             var path = Uri.UnescapeDataString(uri.Path);
             return Path.GetDirectoryName(path);
         }        
