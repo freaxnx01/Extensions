@@ -5,14 +5,18 @@
         <RootNamespace>freaxnx01.Extensions</RootNamespace>
         <TargetFrameworks>net5.0;netstandard2.0</TargetFrameworks>
         <LangVersion>9</LangVersion>
-        <PackageVersion>0.0.91</PackageVersion>
+        <PackageVersion></PackageVersion>
         <Authors>freaxnx01</Authors>
-        <AssemblyVersion>0.0.9</AssemblyVersion>
+        <AssemblyVersion></AssemblyVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="HtmlAgilityPack" Version="1.11.33" />
+      <PackageReference Include="MinVer" Version="2.5.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
       <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
       <PackageReference Include="System.ServiceModel.Syndication" Version="6.0.0-preview.3.21201.4" />
       <PackageReference Include="System.Text.Json" Version="6.0.0-preview.3.21201.4" />
