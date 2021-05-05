@@ -21,8 +21,8 @@ jobs:
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
-#    - name: Test
-#      run: dotnet test --no-build --verbosity normal
+    - name: Test
+      run: dotnet test --no-build --verbosity normal
 
     - name: Publish NuGet
       # You may pin to the exact commit or the version.
@@ -34,7 +34,7 @@ jobs:
         # NuGet package id, used for version detection & defaults to project name
         PACKAGE_NAME: freaxnx01.Extensions
         # Filepath with version info, relative to root of repository & defaults to PROJECT_FILE_PATH
-        #VERSION_FILE_PATH: obj/Debug/net5.0/Extensions.AssemblyInfo.cs
+        VERSION_FILE_PATH: obj/Debug/netstandard2.0/Extensions.AssemblyInfo.cs
         # Regex pattern to extract version info in a capturing group
         VERSION_REGEX: ^\s*<PackageVersion>(.*)<\/PackageVersion>\s*$
         # Useful with external providers like Nerdbank.GitVersioning, ignores VERSION_FILE_PATH & VERSION_REGEX
