@@ -40,4 +40,7 @@ jobs:
         run: |
           dotnet new tool-manifest
           dotnet tool install --local minver-cli --version 2.5.0
-          dotnet minver -v e
+          #dotnet minver -v e
+          echo "MINVER_VERSION=$(dotnet minver -v e)" >> $GITHUB_ENV
+          echo $MINVER_VERSION
+
