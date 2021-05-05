@@ -3,12 +3,12 @@
     <PropertyGroup>
         <AssemblyName>freaxnx01.Extensions</AssemblyName>
         <RootNamespace>freaxnx01.Extensions</RootNamespace>
-        <TargetFrameworks>net5.0;netstandard2.0</TargetFrameworks>
         <LangVersion>9</LangVersion>
         <PackageVersion></PackageVersion>
         <Authors>freaxnx01</Authors>
         <AssemblyVersion></AssemblyVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <TargetFramework>netstandard2.0</TargetFramework>
     </PropertyGroup>
 
     <ItemGroup>
