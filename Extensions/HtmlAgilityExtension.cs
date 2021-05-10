@@ -9,6 +9,11 @@ namespace freaxnx01.Extensions
 {
     public static class HtmlAgilityExtension
     {
+        public static string Title(this HtmlDocument htmlDocument)
+        {
+            return htmlDocument.DocumentNode.SelectSingleNode("//title").InnerText;
+        }
+        
         public static HtmlNode SelectSingleNode(this HtmlDocument htmlDocument, string xpath)
         {
             return htmlDocument.DocumentNode.SelectSingleNode(xpath);
