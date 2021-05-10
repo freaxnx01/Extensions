@@ -6,7 +6,7 @@ using Xunit;
 
 namespace Extensions.Test
 {
-    public class Tests
+    public class AssemblyExtensionTestsTests
     {
         [Fact]
         public void AssemblyDirectoryTest()
