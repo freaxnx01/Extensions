@@ -2,4 +2,6 @@
 
 
 
-![](https://img.shields.io/codecov/c/github/freaxnx01/extensions)
+
+
+![Codecov](https://img.shields.io/codecov/c/github/freaxnx01/extensions)
