@@ -1,1 +1,1 @@
-[![Codecov](https://img.shields.io/codecov/c/github/freaxnx01/extensions)](https://app.codecov.io/gh/freaxnx01/Extensions)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/freaxnx01/extensions/.NET)  ![GitHub last commit](https://img.shields.io/github/last-commit/freaxnx01/extensions)  [![Codecov](https://img.shields.io/codecov/c/github/freaxnx01/extensions)](https://app.codecov.io/gh/freaxnx01/Extensions)
