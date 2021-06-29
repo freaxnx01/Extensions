@@ -9,6 +9,8 @@
         <AssemblyVersion></AssemblyVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <TargetFramework>netstandard2.0</TargetFramework>
+        <PackageProjectUrl>https://github.com/freaxnx01/Extensions</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/freaxnx01/Extensions</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>
