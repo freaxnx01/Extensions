@@ -9,6 +9,21 @@ namespace freaxnx01.Extensions
 {
     public static class UriExtension
     {
+        public static bool IsAbsolute(this string url)
+        {
+            return Uri.TryCreate(url, UriKind.Absolute, out var result);            
+        }
+
+        public static Uri Combine(this Uri baseUri, string relativeUri)
+        {
+            if (!baseUri.AbsoluteUri.EndsWith("/"))
+            {
+                baseUri = new Uri(baseUri.AbsoluteUri + "/");
+            }
+            
+            return relativeUri.IsAbsolute() ? new Uri(relativeUri) : new Uri(baseUri, relativeUri);
+        }
+
         public static HtmlDocument GetHtmlDocument(this Uri uri)
         {
             return new HtmlWeb().Load(uri.AbsoluteUri);
