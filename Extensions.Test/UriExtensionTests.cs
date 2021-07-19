@@ -11,6 +11,7 @@ namespace Extensions.Test
         [Fact]
         public void CombineTest()
         {
+            //
             var baseUri = new Uri("https://web.freaxnx01.ch/movies");
 
             var result = baseUri.Combine("all.html").AbsoluteUri;
