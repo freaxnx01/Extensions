@@ -19,5 +19,15 @@ namespace Extensions.Test
         {
             Assert.False("LGTM".IsNullOrEmpty());
         }
+
+        [Fact]
+        public void PutInCharacterTest()
+        {
+            Assert.Equal("'Lorem ipsum'", "Lorem ipsum".PutInQuotes());
+            Assert.Equal("\"Lorem ipsum\"", "Lorem ipsum".PutInDoubleQuotes());
+            Assert.Equal("(Lorem ipsum)", "Lorem ipsum".PutInRoundBrackets());
+            Assert.Equal("[Lorem ipsum]", "Lorem ipsum".PutInSquareBrackets());
+            Assert.Equal("{Lorem ipsum}", "Lorem ipsum".PutInCurlyBrackets());
+        }
     }
 }
