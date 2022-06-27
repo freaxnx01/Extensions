@@ -4,7 +4,7 @@
         <AssemblyName>freaxnx01.Extensions</AssemblyName>
         <RootNamespace>freaxnx01.Extensions</RootNamespace>
         <LangVersion>9</LangVersion>
-        <PackageVersion>1.2.0</PackageVersion>
+        <PackageVersion>1.3.0</PackageVersion>
         <Authors>freaxnx01</Authors>
         <AssemblyVersion></AssemblyVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
